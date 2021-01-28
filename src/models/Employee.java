@@ -49,7 +49,7 @@ public class Employee {
     private String password;
 
     @Column(name = "admin_flag", nullable = false)
-    private Timestamp admin_flag;
+    private Integer admin_flag;
 
     @Column(name = "created_at", nullable = false)
     private Timestamp created_at;
@@ -92,11 +92,11 @@ public class Employee {
         this.password = password;
     }
 
-    public Timestamp getAdmin_flag() {
+    public Integer getAdmin_flag() {
         return admin_flag;
     }
 
-    public void setAdmin_flag(Timestamp admin_flag) {
+    public void setAdmin_flag(Integer admin_flag) {
         this.admin_flag = admin_flag;
     }
 
@@ -116,11 +116,11 @@ public class Employee {
         this.updated_at = updated_at;
     }
 
-    public Integer getDelete() {
+    public Integer getDelete_flag() {
         return delete_flag;
     }
 
-    public void setDelete(Integer delete_flag) {
+    public void setDelete_flag(Integer delete_flag) {
         this.delete_flag = delete_flag;
     }
 }
