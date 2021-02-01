@@ -63,27 +63,3 @@ public class ReportsIndexServlet extends HttpServlet {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
